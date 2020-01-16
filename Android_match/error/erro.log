@@ -1,0 +1,159 @@
+2019-12-21 07:08:16:111 - info: [Appium] Welcome to Appium v1.8.1
+2019-12-21 07:08:16:112 - info: [Appium] Non-default server args:
+2019-12-21 07:08:16:113 - info: [Appium]   address: 127.0.0.1
+2019-12-21 07:08:16:113 - info: [Appium]   port: 8001
+2019-12-21 07:08:16:113 - info: [Appium]   bootstrapPort: 10002
+2019-12-21 07:08:16:113 - info: [Appium]   log: C:\Users\wang\Desktop\image\Android_match\source/erro.log
+2019-12-21 07:08:16:114 - info: [Appium]   loglevel: info
+2019-12-21 07:08:16:114 - info: [Appium]   logTimestamp: true
+2019-12-21 07:08:16:114 - info: [Appium]   platformVersion: 5.1.1
+2019-12-21 07:08:16:115 - info: [Appium]   deviceName: 127.0.0.1:21513
+2019-12-21 07:08:16:115 - warn: [Appium] Deprecated server args:
+2019-12-21 07:08:16:116 - warn: [Appium]   --platform-version => --default-capabilities '{"platformVersion":"5.1.1"}'
+2019-12-21 07:08:16:116 - warn: [Appium]   --device-name => --default-capabilities '{"deviceName":"127.0.0.1:21513"}'
+2019-12-21 07:08:16:116 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-12-21 07:08:16:116 - info: [Appium]   platformVersion: 5.1.1
+2019-12-21 07:08:16:116 - info: [Appium]   deviceName: 127.0.0.1:21513
+2019-12-21 07:08:16:149 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:8001
+2019-12-21 07:08:27:796 - info: [HTTP] --> POST /wd/hub/session
+2019-12-21 07:08:27:797 - info: [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:platformVersion":"5.1.1","appium:deviceName":"Android_5","appium:appPackage":"com.mobivans.onestrokecharge","appium:appActivity":"com.stub.stub01.Stub01","appium:app":"C:\\Users\\wang\\Desktop\\image\\Android_match\\source/yibijizhang.apk","appium:unicodeKeyboard":"true"}]},"desiredCapabilities":{"platformName":"Android","platformVersion":"5.1.1","deviceName":"Android_5","appPackage":"com.mobivans.onestrokecharge","appActivity":"com.stub.stub01.Stub01","app":"C:\\Users\\wang\\Desktop\\image\\Android_match\\source/yibijizhang.apk","unicodeKeyboard":"true"}}
+2019-12-21 07:08:27:805 - warn: [BaseDriver] The capabilities ["platformVersion","deviceName"] are not standard capabilities and should have an extension prefix
+2019-12-21 07:08:27:810 - warn: [Appium] Could not parse W3C capabilities: The arguments passed to the command are either invalid or malformed. Falling back to JSONWP protocol.
+2019-12-21 07:08:27:810 - warn: [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["platformVersion","deviceName","platformName","appPackage","appActivity","app","unicodeKeyboard"]. Falling back to JSONWP protocol.
+2019-12-21 07:08:27:813 - info: [Appium] Creating new AndroidDriver (v2.7.0) session
+2019-12-21 07:08:27:813 - info: [Appium] Capabilities:
+2019-12-21 07:08:27:814 - info: [Appium]   platformVersion: 5.1.1
+2019-12-21 07:08:27:814 - info: [Appium]   deviceName: Android_5
+2019-12-21 07:08:27:814 - info: [Appium]   platformName: Android
+2019-12-21 07:08:27:814 - info: [Appium]   appPackage: com.mobivans.onestrokecharge
+2019-12-21 07:08:27:814 - info: [Appium]   appActivity: com.stub.stub01.Stub01
+2019-12-21 07:08:27:815 - info: [Appium]   app: C:\Users\wang\Desktop\image\Android_match\source/yibijizhang.apk
+2019-12-21 07:08:27:815 - info: [Appium]   unicodeKeyboard: true
+2019-12-21 07:08:27:819 - warn: [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-12-21 07:08:27:822 - info: [BaseDriver] Session created with session id: 44330d98-8949-467a-a55b-287560b7f15d
+2019-12-21 07:08:27:973 - info: [AndroidDriver] Java version is: 11.0.3
+2019-12-21 07:08:27:976 - info: [ADB] Checking whether adb is present
+2019-12-21 07:08:27:981 - info: [ADB] Found 1 'build-tools' folders under 'D:\addruanjian\android_SDK\android-sdk-windows' (newest first):
+2019-12-21 07:08:27:981 - info: [ADB]     D:/addruanjian/android_SDK/android-sdk-windows/build-tools/29.0.2
+2019-12-21 07:08:27:982 - info: [ADB] Using adb.exe from D:\addruanjian\android_SDK\android-sdk-windows\platform-tools\adb.exe
+2019-12-21 07:08:27:982 - info: [AndroidDriver] Retrieving device list
+2019-12-21 07:08:28:022 - info: [AndroidDriver] Looking for a device with Android '5.1.1'
+2019-12-21 07:08:28:022 - info: [ADB] Getting device platform version
+2019-12-21 07:08:28:068 - info: [AndroidDriver] Using device: 127.0.0.1:21513
+2019-12-21 07:08:28:074 - info: [BaseDriver] Using local app 'C:\Users\wang\Desktop\image\Android_match\source/yibijizhang.apk'
+2019-12-21 07:08:28:076 - info: [AndroidDriver] Starting Android session
+2019-12-21 07:08:28:281 - info: [ADB] Checking whether aapt is present
+2019-12-21 07:08:28:283 - info: [ADB] Using aapt.exe from D:\addruanjian\android_SDK\android-sdk-windows\build-tools\29.0.2\aapt.exe
+2019-12-21 07:08:29:592 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2019-12-21 07:08:29:592 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2019-12-21 07:08:31:365 - info: [ADB] Getting device platform version
+2019-12-21 07:08:32:017 - info: [AndroidDriver] Performing fast reset on 'com.mobivans.onestrokecharge'
+2019-12-21 07:08:32:755 - info: [ADB] Successfully extracted 185 strings from 'C:\Users\wang\Desktop\image\Android_match\source/yibijizhang.apk' resources for '(default)' configuration
+2019-12-21 07:08:32:987 - info: [ADB] No 'uiautomator' process has been found
+2019-12-21 07:08:33:172 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2019-12-21 07:08:33:214 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2019-12-21 07:08:35:358 - info: [Appium] New AndroidDriver session created successfully, session 44330d98-8949-467a-a55b-287560b7f15d added to master session list
+2019-12-21 07:08:35:364 - info: [HTTP] <-- POST /wd/hub/session 200 7565 ms - 920
+2019-12-21 07:08:35:364 - info: [HTTP] 
+2019-12-21 07:08:35:368 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/timeouts/implicit_wait
+2019-12-21 07:08:35:368 - info: [HTTP] {"ms":15000,"sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:35:390 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/timeouts/implicit_wait 200 22 ms - 76
+2019-12-21 07:08:35:391 - info: [HTTP] 
+2019-12-21 07:08:35:394 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:35:394 - info: [HTTP] {"using":"-android uiautomator","value":"text(\"记一笔\")","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:36:937 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 1543 ms - 87
+2019-12-21 07:08:36:937 - info: [HTTP] 
+2019-12-21 07:08:36:938 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/1/click
+2019-12-21 07:08:36:939 - info: [HTTP] {"id":"1","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:37:903 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/1/click 200 964 ms - 76
+2019-12-21 07:08:37:904 - info: [HTTP] 
+2019-12-21 07:08:37:906 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:37:906 - info: [HTTP] {"using":"-android uiautomator","value":"text(\"办公\")","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:38:512 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 606 ms - 87
+2019-12-21 07:08:38:513 - info: [HTTP] 
+2019-12-21 07:08:38:514 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:38:515 - info: [HTTP] {"using":"-android uiautomator","value":"text(\"果蔬\")","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:38:533 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 19 ms - 87
+2019-12-21 07:08:38:534 - info: [HTTP] 
+2019-12-21 07:08:38:536 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/touch/perform
+2019-12-21 07:08:38:536 - info: [HTTP] {"actions":[{"action":"press","options":{"element":"2"}},{"action":"moveTo","options":{"element":"3"}},{"action":"release","options":{}}],"sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:38:739 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/touch/perform 200 203 ms - 76
+2019-12-21 07:08:38:740 - info: [HTTP] 
+2019-12-21 07:08:38:741 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:38:741 - info: [HTTP] {"using":"-android uiautomator","value":"text(\"汽车\")","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:38:817 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 76 ms - 87
+2019-12-21 07:08:38:818 - info: [HTTP] 
+2019-12-21 07:08:38:820 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/4/click
+2019-12-21 07:08:38:820 - info: [HTTP] {"id":"4","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:39:035 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/4/click 200 215 ms - 76
+2019-12-21 07:08:39:035 - info: [HTTP] 
+2019-12-21 07:08:39:036 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:39:037 - info: [HTTP] {"using":"id","value":"add_et_remark","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:39:601 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 565 ms - 87
+2019-12-21 07:08:39:602 - info: [HTTP] 
+2019-12-21 07:08:39:603 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/5/click
+2019-12-21 07:08:39:603 - info: [HTTP] {"id":"5","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:39:733 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/5/click 200 130 ms - 76
+2019-12-21 07:08:39:733 - info: [HTTP] 
+2019-12-21 07:08:39:736 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/5/clear
+2019-12-21 07:08:39:736 - info: [HTTP] {"id":"5","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:43:945 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/5/clear 200 4209 ms - 76
+2019-12-21 07:08:43:945 - info: [HTTP] 
+2019-12-21 07:08:43:947 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/5/value
+2019-12-21 07:08:43:947 - info: [HTTP] {"text":"吃肉肉","value":["吃","肉","肉"],"id":"5","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:49:036 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/5/value 200 5090 ms - 76
+2019-12-21 07:08:49:037 - info: [HTTP] 
+2019-12-21 07:08:49:038 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:49:039 - info: [HTTP] {"using":"id","value":"keyb_btn_1","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:49:075 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 37 ms - 87
+2019-12-21 07:08:49:076 - info: [HTTP] 
+2019-12-21 07:08:49:077 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/6/click
+2019-12-21 07:08:49:077 - info: [HTTP] {"id":"6","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:49:710 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/6/click 200 632 ms - 76
+2019-12-21 07:08:49:710 - info: [HTTP] 
+2019-12-21 07:08:49:712 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:49:712 - info: [HTTP] {"using":"id","value":"keyb_btn_6","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:50:202 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 491 ms - 87
+2019-12-21 07:08:50:203 - info: [HTTP] 
+2019-12-21 07:08:50:204 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/7/click
+2019-12-21 07:08:50:204 - info: [HTTP] {"id":"7","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:50:346 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/7/click 200 142 ms - 76
+2019-12-21 07:08:50:347 - info: [HTTP] 
+2019-12-21 07:08:50:348 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:50:348 - info: [HTTP] {"using":"id","value":"keyb_btn_finish","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:50:960 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 613 ms - 87
+2019-12-21 07:08:50:961 - info: [HTTP] 
+2019-12-21 07:08:50:962 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/8/click
+2019-12-21 07:08:50:963 - info: [HTTP] {"id":"8","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:51:551 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/8/click 200 589 ms - 76
+2019-12-21 07:08:51:551 - info: [HTTP] 
+2019-12-21 07:08:51:553 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element
+2019-12-21 07:08:51:554 - info: [HTTP] {"using":"-android uiautomator","value":"text(\"长按记录可删除\")","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:52:182 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element 200 628 ms - 87
+2019-12-21 07:08:52:182 - info: [HTTP] 
+2019-12-21 07:08:52:184 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/9/click
+2019-12-21 07:08:52:184 - info: [HTTP] {"id":"9","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:55:507 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/9/click 200 3324 ms - 76
+2019-12-21 07:08:55:507 - info: [HTTP] 
+2019-12-21 07:08:55:510 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/elements
+2019-12-21 07:08:55:510 - info: [HTTP] {"using":"id","value":"account_item_txt_remark","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:55:595 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/elements 200 86 ms - 90
+2019-12-21 07:08:55:595 - info: [HTTP] 
+2019-12-21 07:08:55:596 - info: [HTTP] --> POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/elements
+2019-12-21 07:08:55:596 - info: [HTTP] {"using":"id","value":"account_item_txt_money","sessionId":"44330d98-8949-467a-a55b-287560b7f15d"}
+2019-12-21 07:08:55:674 - info: [HTTP] <-- POST /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/elements 200 77 ms - 90
+2019-12-21 07:08:55:675 - info: [HTTP] 
+2019-12-21 07:08:55:677 - info: [HTTP] --> GET /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/10/text
+2019-12-21 07:08:55:677 - info: [HTTP] {}
+2019-12-21 07:08:55:717 - info: [HTTP] <-- GET /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/10/text 200 40 ms - 83
+2019-12-21 07:08:55:717 - info: [HTTP] 
+2019-12-21 07:08:55:718 - info: [HTTP] --> GET /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/11/text
+2019-12-21 07:08:55:718 - info: [HTTP] {}
+2019-12-21 07:08:55:727 - info: [HTTP] <-- GET /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d/element/11/text 200 9 ms - 77
+2019-12-21 07:08:55:728 - info: [HTTP] 
+2019-12-21 07:08:55:729 - info: [HTTP] --> DELETE /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d
+2019-12-21 07:08:55:729 - info: [HTTP] {}
+2019-12-21 07:08:55:731 - info: [Appium] Removing session 44330d98-8949-467a-a55b-287560b7f15d from our master session list
+2019-12-21 07:08:57:242 - info: [ADB] No 'uiautomator' process has been found
+2019-12-21 07:08:57:616 - info: [HTTP] <-- DELETE /wd/hub/session/44330d98-8949-467a-a55b-287560b7f15d 200 1887 ms - 76
+2019-12-21 07:08:57:617 - info: [HTTP] 

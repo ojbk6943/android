@@ -1,0 +1,9 @@
+2019-12-23 12:09:48:588 - warn: [Appium] Deprecated server args:
+2019-12-23 12:09:48:589 - warn: [Appium]   --platform-version => --default-capabilities '{"platformVersion":"5.1.1"}'
+2019-12-23 12:09:48:589 - warn: [Appium]   --device-name => --default-capabilities '{"deviceName":"127.0.0.1:21503"}'
+2019-12-23 12:10:02:869 - warn: [BaseDriver] The capabilities ["platformVersion","deviceName"] are not standard capabilities and should have an extension prefix
+2019-12-23 12:10:02:874 - warn: [Appium] Could not parse W3C capabilities: The arguments passed to the command are either invalid or malformed. Falling back to JSONWP protocol.
+2019-12-23 12:10:02:875 - warn: [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["platformVersion","deviceName","platformName","appPackage","appActivity","app","unicodeKeyboard"]. Falling back to JSONWP protocol.
+2019-12-23 12:10:02:884 - warn: [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-12-23 12:10:05:003 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2019-12-23 12:10:05:003 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
